@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+  *{
+
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica;
+    background-color: #f1f1f1;
+  }
+
+ .logo{
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  padding-left: 1vh;
+  margin-bottom:  3vh;
+ 
+
+ }
+
+
+ header{
+  height:17vh;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 2rem #2F4F96; 
+ }
+
+ ul{
+
+  display: flex;
+  margin: 7vh;
+  font-size: 3vh;
+ }
+
+ li{
+  color:black;
+  list-style-type: none;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  padding-left: 2rem;
+ }
+
+ .in{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: #004AAD;
+  left: 18vh;
+  top: 5vh;
+ }
+
+ .sight{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 23vh;
+  top: 5vh;
+
+ }
+
+ .tech{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 21vh;
+  top: 11vh;
+  font-size: 1.5vh;
+ }
+
+ .movimentoheader {
+    transition: all 0.4s ease;
+  
+  }
+  
+  .movimentoheader:hover {
+    transform: translateY(-1vh);
+    
+  }
+
+.containerus{
+  height: 15vh;
+  padding: 4vh;
+
+
+}
+
+.smartcanteen{
+  font-size: 6vh;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 65vh;
+
+  
+}
+
+.smartcanteen2{
+    font-size: 2.5vh;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 67vh;
+    color: rgb(77, 73, 73);
+    
+  }
+
+
+.container {
+    display: flex;
+  }
+
+.img{
+
+    width: 58vh;
+    float: left;
+}
+
+.txt{
+
+    width: 130vh;
+    height: 15vh;
+    text-align: center;
+    padding-top: 23vh;
+}
+
+.void{
+    background-color: f1f1f1;
+    height: 7vh;
+}
+
+.func{
+    font-size: 2.5vh;
+    color: white;
+    padding: 4vh;
+    height: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 60vh;
+    background-color: #0B274B;
+ 
+  
+    
+  }
+
+  .fala{
+    float: left;
+    text-align: center;
+    height: 19vh;
+    width: 182.2vh;
+    font-size: 3vh;
+  }
+
+  .fala2{
+    float: left;
+    text-align: center;
+    height: 19vh;
+    width: 182.2vh;
+    font-size: 3vh;
+  }
+
+  .fala3{
+    float: left;
+    text-align: center;
+    height: 19vh;
+    width: 182.2vh;
+    font-size: 3vh;
+  }
+
+  .all{
+    background-color: #0B274B;
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+
+  .link-sem-sublinhado {
+    text-decoration: none;
+  }
+
+
+
+  
+
+
+
+
+
+

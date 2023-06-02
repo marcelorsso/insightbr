@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+  *{
+
+    margin: 0;
+    padding: 0;
+  }
+
+
+  
+  body{
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica;
+    background-color: #f1f1f1;
+  }
+
+ .logo{
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  padding-left: 1vh;
+  margin-bottom: 3vh;
+
+ }
+
+
+ header{
+  height:17vh;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 2rem #2F4F96; 
+ }
+
+ ul{
+
+  display: flex;
+  margin: 7vh;
+  font-size: 3vh;
+ }
+
+ li{
+  color:black;
+  list-style-type: none;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  padding-left: 2rem;
+ }
+
+ .in{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: #004AAD;
+  left: 18vh;
+  top: 5vh;
+ }
+
+ .sight{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 23vh;
+  top: 5vh;
+
+ }
+
+ .tech{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 20vh;
+  top: 11vh;
+  font-size: 1.5vh;
+  letter-spacing: 0.2vh;
+ }
+
+ .movimentoheader {
+  transition: all 0.4s ease;
+
+}
+
+.movimentoheader:hover {
+  transform: translateY(-1vh);
+  
+}
+
+ .bg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.80;
+ }
+
+ .bg2{
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+.texto{
+  font-family: 'Montserrat';
+  font-size: 7vh;
+  color: white;
+  position: absolute;
+  top: 120vh;
+  left: 87vh;
+  font-weight: bold;
+}
+
+.texto2{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 8vh;
+  left:10vh;
+  top:170vh;
+  width: 60vh;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.logao{
+  position: absolute;
+  width: 82vh;
+  height: 82vh;
+  left: 25vh;
+}
+
+
+.in2{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: #004AAD;
+  left: 103.5vh;
+  top: 280vh;
+  font-size: 15vh;
+ }
+
+ .sight2{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 120vh;
+  top: 280vh;
+  font-size: 15vh;
+
+ }
+
+ .tech2{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 123vh;
+  top: 296.5vh;
+  font-size: 3vh;
+  letter-spacing: 0.2vh;
+ }
+
+
+ button, input[type="button"] {
+  padding: 3vh 10vh;
+  background-color: #0B274B;
+  color: #fff;
+  border: none;
+  border-radius: 3vh;
+  cursor: pointer;
+  position: absolute;
+  left: 55vh;
+  top: 325vh;
+  font-family: 'Montserrat';
+  font-size: 5vh;
+}
+
+button:hover, input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+.link-sem-sublinhado {
+  text-decoration: none;
+}

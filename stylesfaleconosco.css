@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+  *{
+
+    margin: 0;
+    padding: 0;
+  }
+
+
+  body{
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica;
+    background-color: #f1f1f1;
+  }
+
+ .logo{
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  padding-left: 1vh;
+  margin-bottom: 3vh;
+
+ }
+
+ .link-sem-sublinhado {
+  text-decoration: none;
+}
+
+
+ header{
+  height:17vh;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 2rem #2F4F96; 
+ }
+
+ ul{
+
+  display: flex;
+  margin: 7vh;
+  font-size: 3vh;
+ }
+
+ li{
+  color:black;
+  list-style-type: none;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  padding-left: 2rem;
+ }
+
+ .in{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: #004AAD;
+  left: 18vh;
+  top: 5vh;
+ }
+
+ .sight{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 23vh;
+  top: 5vh;
+
+ }
+
+ .tech{
+  position: absolute;
+  font-family: 'Montserrat';
+  color: black;
+  left: 20vh;
+  top: 11vh;
+  font-size: 1.5vh;
+  letter-spacing: 0.2vh;
+ }
+
+ .movimentoheader {
+  transition: all 0.4s ease;
+
+}
+
+.movimentoheader:hover {
+  transform: translateY(-1vh);
+  
+}
+
+.titulo{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #2F4F96;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 5vh;
+}
+
+.container{
+    height: 120vh;
+    width: 180vh;
+    background-color: #012A5D;
+    margin: 15vh;
+    border-radius: 1vh;
+ 
+}
+
+.email{
+    position: absolute;
+    display: block;
+    margin-bottom: 0.5px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat';
+    padding-left: 15vh;
+    top: 59vh;
+
+}
+
+input[type="email"] {
+    width: 45%;
+    padding: 1vh;
+    font-size: 1.5vh;
+    border: none; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 15vh;
+}
+
+.nomecompleto{
+  position: absolute;
+  display: block;
+  margin-bottom: 0.5vh;
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat';
+  padding-left: 15vh;
+  top: 93vh;
+
+}
+
+
+input[type="email"] {
+  width: 45%;
+  padding: 1vh;
+  font-size: 1.5vh;
+  border: none; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 15vh;
+  font-family: 'Montserrat';
+}
+
+input[type="text"] {
+  width: 45%;
+  padding: 1vh;
+  font-size: 1.5vh;
+  border: none; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 15vh;
+  font-family: 'Montserrat';
+}
+
+i.fab.fa-whatsapp {
+  position: absolute;
+  top: 95vh;
+  font-size: 6vh;
+  color: green;
+  left: 125vh;
+}
+
+.telefone{
+  position: absolute;
+  top: 96vh;
+  left:132vh;
+  font-size: 2.5vh;
+  color: white;
+}
+
+
+i.far.fa-envelope {
+  font-size: 5.5vh;
+  color: white ;
+  left: 127vh;
+  top: 70vh;
+}
+
+.envelope{
+  position: absolute;
+  top: 63vh;
+  left: 133vh;
+  font-size: 2.5vh;
+  color: white;
+}
+
+textarea {
+  position: absolute;
+  width: 30%;
+  height: 12vh;
+  padding: 1.2vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: 'Montserrat';
+  top: 115.5vh;
+  left: 15vh;
+  width: 38.5%;
+  padding: 1vh;
+  font-size: 1.5vh;
+  border: none; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 15vh;
+}
+
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  
+}
+
+.mensagem{
+  position: absolute;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat';
+  padding-left: 14.8vh;
+  top: 125vh;
+}
+
+
+button, input[type="button"] {
+  padding: 2vh 5vh;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  left: 120vh;
+  top: 135.7vh;
+}
+
+button:hover, input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+i.fab.fa-facebook {
+  color: #3b5998;
+  font-size: 6vh; 
+  position: absolute;
+  left: 163vh;
+  top: 153vh;
+
+}
+
+i.fab.fa-instagram {
+  color: #C13584;
+  font-size: 6vh; 
+  position: absolute;
+  left: 173vh;
+  top: 153vh;
+}
